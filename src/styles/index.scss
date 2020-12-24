@@ -1,0 +1,16 @@
+@font-face {
+    font-family: IranSans;
+    src: url('../assets/fonts/iransans.woff2');
+}
+
+* {
+    font-family: IranSans !important;
+    font-size: small;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active {
+    box-shadow: 0 0 0 30px white inset !important;
+    background-color: transparent !important
+}
